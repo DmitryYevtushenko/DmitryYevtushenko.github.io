@@ -646,7 +646,7 @@ header {
 	justify-content: center;
 }
 .testimonials_pictures .slick-track{
-	padding: 50px 0;
+	padding: 40px 0;
 }
 .testimonials_pic_slide>img {
 	min-height: 80px;
@@ -667,15 +667,75 @@ header {
 	color: var(--rdColor);
 }
 .testimonials_text h5 {
+	margin-top: 20px;
 	font-size: 2.1rem;
 	font-weight: 600;
 	color: var(--rdColor);
 }
 .testimonials_text p {
+	position: relative;
 	font-family: 'Lora', serif;
 	font-size: 1.4rem;
 	font-weight: 400;
 	letter-spacing: .1rem;
 	width: 65%;
-	margin: 30px auto;
+	margin: 30px auto 175px auto;
+}
+.testimonials_text .fa-quote-left {
+	position: absolute;
+	top: -1.4rem;
+	left: -30px;
+	font-size: 2.4rem;
+}
+.testimonials_text .fa-quote-right {
+	position: absolute;
+	top: -1.4rem;
+	right: -30px;
+	font-size: 2.4rem;
+}
+
+/* ======Hire me CSS====== */
+.hire_me {
+	width: 100%;
+	padding: 75px;
+	background: var(--rdColor);
+}
+.hire_me_content {
+	display: flex;
+	justify-content: center;
+	/* padding: 0 40px; */
+}
+.hire_me_icon {
+	font-size: 6rem;
+	color: var(--mainBackground);
+}
+.hire_me_text {
+	text-align: center;
+	padding: 0 20px;
+}
+.hire_me_text>h5 {
+	font-size: 3.7rem;
+	font-weight: 800;
+	color: var(--mainBackground);
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+}
+.hire_me_text>p {
+	color: var(--mainBackground);
+	padding-top: 10px;
+	line-height: 1.5rem;
+}
+
+.hire_me_btn {
+	font-size: 1.8rem;
+	font-weight: 700;
+	letter-spacing: .4rem;
+	text-transform: uppercase;
+	padding: 21px 50px;
+	border-radius: 5px;
+	background: var(--mainBackground);
+	color: var(--rdColor);
+}
+.hire_me_btn:hover {
+	color: var(--rdColor);
 }
