@@ -731,11 +731,49 @@ header {
 	font-weight: 700;
 	letter-spacing: .4rem;
 	text-transform: uppercase;
-	padding: 21px 50px;
+	padding: 20px 50px;
 	border-radius: 5px;
 	background: var(--mainBackground);
 	color: var(--rdColor);
 }
 .hire_me_btn:hover {
 	color: var(--rdColor);
+}
+
+/* ======Blog Posts CSS====== */
+.blog_posts {
+	padding-top: 180px;
+}
+.blog_headline {
+	padding-bottom: 120px;
+}
+.blog_card {
+	background: #313741;
+}
+.blog_card h5 {
+	margin: 12px 0;
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: var(--rdColor);
+	line-height: 2.3rem;
+}
+.blog_date {
+	font-size: 1.2rem;
+	font-weight: 600;
+	word-spacing: .2rem;
+}
+.blog_text {
+	margin: 12px 0 20px 0;
+	font-weight: 300;
+	line-height: 2rem;
+}
+.blog_btn {
+	font-size: 1.1rem;
+	font-weight: 600;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+	padding: 12px 17px;
+	border: none;
+	background: var(--mainGrad) !important;
+	box-shadow: none !important;
 }
