@@ -777,3 +777,43 @@ header {
 	background: var(--mainGrad) !important;
 	box-shadow: none !important;
 }
+.blog_load_btn {
+	font-size: 1.4rem;
+	font-weight: 600;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+	padding: 20px 45px;
+	margin: 60px auto 180px auto;
+	border: none;
+	background: var(--mainGrad) !important;
+	box-shadow: none !important;
+}
+
+/* ======Conact Form CSS====== */
+.field {
+
+}
+.contact_me input,
+.contact_me textarea {
+	min-height: 50px;
+	border: none;
+	border-bottom: 2px solid #58616d;
+	border-radius: 0;
+	background-color: var(--mainBackground);
+	padding: 0;
+	font-size: 1.4rem;
+	color: #8491a2;
+	text-transform: uppercase;
+}
+.contact_me input:hover,
+.contact_me textarea:hover {
+	border-bottom: 2px solid var(--rdColor);
+}
+
+/* label {
+	color: transparent;
+} */
+/* .contact_me input:hover,
+.contact_me textarea:hover label {
+	color: red;
+} */
